@@ -1,7 +1,5 @@
 import React from 'react';
-import { EmptyLink, IconLink, Logo } from '../utils/Common';
-
-
+import { EmptyLink, Logo } from '../utils/Common';
 
 const Contact = ({ head, text }) => {
   return (

@@ -10,24 +10,9 @@
     @apply mobile:overflow-hidden;
   }
 
-  /* h1 {
-    @apply text-[56px] font-gilroy-bold
-  } */
   h2 {
     @apply text-[40px] font-chester leading-10 mobile:text-[32px]
   }
-  /* h3 {
-    @apply text-[32px] font-gilroy-sm-bold
-  }
-  h4 {
-    @apply text-[28px] font-gilroy-sm-bold
-  }
-  h5 {
-    @apply text-[24px] font-gilroy-sm-bold
-  }
-  h6 {
-    @apply text-[20px] font-gilroy-sm-bold
-  } */
 
   @font-face {
     font-family: 'BNChesterRegular';

@@ -15,8 +15,7 @@ const BgImage = () => {
     <Img className='mobile:hidden absolute h-[750px] right-0 -z-10'
       src={'/images/bg_first_section.jpg'}
       name={'example of work'}
-    >
-    </Img>
+    />
   );
 }
 
