@@ -53,6 +53,7 @@ const Slider = ({ limit }) => {
     return acc;
   }, [])
 
+
   const Slide = ({ arr }) => {
 
     const ColorBackgroundLine = () => <div className='absolute border-b border-clr_line_gray top-[107px] md:top-[130px] w-full z-[-1]' />;
@@ -67,6 +68,7 @@ const Slider = ({ limit }) => {
         <div className='icon_with_text
         flex pt-[25px] pl-[24px]
         md:pt-[36px] md:pl-[91px]
+        ult_sm:flex-col
         '>
           <Img className={`
           h-[128px] w-[128px]
