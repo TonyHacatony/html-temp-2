@@ -28,32 +28,32 @@
   h6 {
     @apply text-[20px] font-gilroy-sm-bold
   } */
+
+  @font-face {
+    font-family: 'BNChesterRegular';
+    src: url('/fonts/BN Chester Regular.woff2') format("woff2");
+  }
+  
+  @font-face {
+    font-family: 'GilroyBold';
+    src: url('/fonts/Gilroy-Bold.woff2') format("woff2");
+  }
+  
+  @font-face {
+    font-family: 'GilroyMedium';
+    src: url('/fonts/Gilroy-Medium.woff2') format("woff2");
+  }
+  
+  @font-face {
+    font-family: 'GilroyRegular';
+    src: url('/fonts/Gilroy-Regular.woff2') format("woff2");
+  }
+  
+  @font-face {
+    font-family: 'GilroySemiBold';
+    src: url('/fonts/Gilroy-SemiBold.woff2') format("woff2");
+  }
 }
 
 @tailwind components;
 @tailwind utilities;
-
-@font-face {
-  font-family: 'BNChesterRegular';
-  src: url('../../public/fonts/BN Chester Regular.woff2') format("woff2");
-}
-
-@font-face {
-  font-family: 'GilroyBold';
-  src: url('../../public/fonts/Gilroy-Bold.woff2') format("woff2");
-}
-
-@font-face {
-  font-family: 'GilroyMedium';
-  src: url('../../public/fonts/Gilroy-Medium.woff2') format("woff2");
-}
-
-@font-face {
-  font-family: 'GilroyRegular';
-  src: url('../../public/fonts/Gilroy-Regular.woff2') format("woff2");
-}
-
-@font-face {
-  font-family: 'GilroySemiBold';
-  src: url('../../public/fonts/Gilroy-SemiBold.woff2') format("woff2");
-}
