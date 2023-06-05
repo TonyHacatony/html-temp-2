@@ -5,7 +5,7 @@ const Link = ({ name }) => {
   return (
     <EmptyLink
       className={`w-full h-full block
-      font-gilroy-medium hover:bg-clr_orange`}
+      font-gilroy-medium hover:text-clr_orange`}
       href="#"
     >{name}</EmptyLink>
   );

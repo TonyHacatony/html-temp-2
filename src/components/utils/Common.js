@@ -20,7 +20,7 @@ export const Img = ({ className, name, src }) => {
   );
 }
 
-export const Logo = ({ src, name }) => <IconLink className={'h-5 w-5'} src={src} name={name}></IconLink>;
+export const Logo = ({ src, name }) => <IconLink className={'h-5 w-5 hover:scale-110 transition-transform'} src={src} name={name}></IconLink>;
 
 export const EmptyLink = ({ children, className }) => <a
   href="#"
@@ -31,13 +31,12 @@ export const EmptyLink = ({ children, className }) => <a
 export const Button = ({ children, className }) => {
   return (
     <button className={`font-bold border-2 rounded-lg border-clr_orange md:h-fit md:w-fit 
+        hover:bg-clr_orange hover:text-white transition-transform delay-150
         px-[34px] py-[12px] ${className}`}>
       {children}
     </button>
   );
 }
-
-//my-[28px] self-start md:hidden
 
 export const MoreBtn = ({ className, onClick, children }) => {
   return (

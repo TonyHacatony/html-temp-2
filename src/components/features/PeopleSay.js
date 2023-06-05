@@ -109,7 +109,8 @@ const Slider = ({ limit }) => {
 
   const SliderProgress = ({ pages, currentIndex, setPage }) => {
 
-    const Round = ({ isCurrent, onClick }) => <div className={`h-[14px] w-[14px] rounded-full 
+    const Round = ({ isCurrent, onClick }) => <div className={`h-[14px] w-[14px] rounded-full
+    hover:scale-125 transition-transform
     ${isCurrent ? 'bg-clr_orange' : 'bg-[#DFDFDF]'}`}
       onClick={onClick}
     />

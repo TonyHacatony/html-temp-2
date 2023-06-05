@@ -12,7 +12,10 @@ const photos = [
   { src: '/images/products/img-7.png' },
 ];
 
-const FilterBtn = ({ children, className = '' }) => <button className={`mobile:text-[13px] ${className}`}>{children}</button>;
+const FilterBtn = ({ children, className = '' }) => <button className={`mobile:text-[13px]
+  hover:text-clr_orange hover:border-b-2 border-clr_orange
+  ${className}`}>{children}</button>;
+
 const Photo = (props) => {
   const { className } = props;
   return (
